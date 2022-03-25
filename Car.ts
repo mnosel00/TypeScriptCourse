@@ -1,5 +1,5 @@
 // tworzenie klasy Car
-class Car
+class Carts
 {
     engine: string;
 
@@ -23,7 +23,7 @@ class Car
 
 window.onload = () =>
 {
-    var car = new Car('V8');
+    var car = new Carts('V8');
 
     car.start();
 
